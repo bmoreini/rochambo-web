@@ -1,0 +1,91 @@
+body{
+	background-color: #99CCCC;
+}
+
+
+#header{
+	font-family: Courier;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.center{
+	text-align: center;
+}
+
+.ncenter{
+	display: block;
+	margin: 0 auto;
+}
+
+#play_box{
+	width: 350px;
+	padding-bottom: 15px;
+	border: 3px solid black;
+	border-radius: 10px;
+	background-color: white;
+}
+
+#stats_box{
+	font-family: Arial;
+	padding-bottom: 5px;
+}
+
+#display{
+	font-family: Arial, sans serif;
+}
+
+.left-space{
+	padding-left: 15px;
+}
+
+.choice{
+
+	padding-left: 5px;
+}
+
+#score_board{
+	font-size: 18px;
+  border:1px solid black;
+}
+
+#score, #compscore {
+	display:inline-block;
+}
+
+#outcome{
+	height: 100px;
+	width: 300px;
+	text-align: center;
+	line-height: 100px;
+	font-family: Arial, sans serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.stat_list{
+	display: inline-block;
+	width: 80px;
+}
+
+
+.play_button{
+	font-family: Arial, sans serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	border: 5px solid black;
+	border-radius: 10px;
+	line-height: 40px;
+	height: 40px;
+	width: 100px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.on_click{
+	color: white;
+	background-color: black;
+}
